@@ -4,7 +4,7 @@
 
 This repository provides Python and MATLAB implementations of *Estimation of the Label-Noise Transition Matrix with Performance Guarantees via Selective Classification* (NeurIPS 2026)
 
-The transition matrix $\mathbf{T}$ has entries $T[i, j] = \mathbf{P}(\widetilde Y = i | Y = j)$. 
+The transition matrix $\mathbf{T}$ has entries $T_{i, j} = \mathbf{P}(\widetilde Y = i | Y = j)$. 
 The provided algorithms estimate each column $j$ in parallel. They split the noisy samples into two halves, learn on the first half selection functions that accept instances of noisy class $j$, and choose on the second half the one that minimizes the false discovery rate while accepting at least $N_+$ samples. Column $j$ of $\mathbf{T}$ is then the distribution of the noisy labels among the accepted samples.
 
 - Algorithm 1 (threshold selection): learns a binary score function for class $j$ versus the rest and accepts the instances whose score is above a threshold.
