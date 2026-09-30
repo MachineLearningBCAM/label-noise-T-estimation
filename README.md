@@ -102,7 +102,7 @@ The folder `data/` contains the datasets used in the experiments, and `main_exp`
 | `mnist_convnext_base.mat` | MNIST features from a pre-trained ConvNeXt, used by the oracle |
 | `cifar10_convnext_base.mat` | CIFAR-10 features from a pre-trained ConvNeXt: 60,000 samples, 10 classes, 1,024 features |
 
-The two ConvNeXt feature files and MNIST are too large for GitHub. Download them from [here](https://drive.google.com/drive/folders/1FWQ7KMAfi0XLQuPLsOwmT5cga_l7ENEo?usp=sharing) and place them in the folder `data/`.
+The two ConvNeXt feature files and MNIST can be downloaded them from [here](https://drive.google.com/drive/folders/1FWQ7KMAfi0XLQuPLsOwmT5cga_l7ENEo?usp=sharing) and place them in the folder `data/`.
 
 ## Citation and license
 
